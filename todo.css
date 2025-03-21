@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: gold; /* Your background color */
+    margin: 0;
+}
+
+.container {
+    background-color: #920d56; /* Blue box */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+h1{
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.todo-input{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
